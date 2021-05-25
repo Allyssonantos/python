@@ -1,5 +1,5 @@
-num_escolhido = int(input ('Escolha um número: '))
-if (num_escolhido % 3 == 5):
-   print('FizzBuzz')
+numero = int(input('Digite um número: '))
+if ((numero%5) == 0) and ((numero%3) == 0):
+  print("FizzBuzz")
 else:
-   print(num_escolhido)
+  print(numero)
